@@ -1,4 +1,5 @@
-FROM python:3
+FROM alpine:latest
 WORKDIR /usr/src/app
+RUN apk add --no-cache python3
 COPY . . 
-CMD [ "python3 ./main.py" ]
+CMD [ "python3", "./main.py" ]
