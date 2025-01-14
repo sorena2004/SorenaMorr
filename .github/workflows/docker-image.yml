@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build --tag circle:$(date +%s) .
+      run: docker build --tag circle:$(date +%s) . | docker push sorena2004/devops-test
     
     
     - name: Upload a Build Artifact
