@@ -17,7 +17,7 @@ jobs:
     - name: Build the Docker image
       run: docker build --tag circle:$(date +%s) .
     - name: upload the Docker image
-      run: docker push sorena2004/devops-test
+      run: docker push sorena2004/devops-test:latest
     
     
     - name: Upload a Build Artifact
