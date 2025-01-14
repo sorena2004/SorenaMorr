@@ -23,9 +23,3 @@ jobs:
       with:
         path: /home/runner/work/SorenaMorr/SorenaMorr
 
-    
-    - name: Upload image
-      uses: McCzarny/upload-image@cfbca06cc6bde914bda8d13d3ccb7885d40e9b25
-      with:
-        path: /home/runner/work/SorenaMorr/SorenaMorr
-        uploadMethod: https://hub.docker.com/repository/docker/sorena2004/devops-test
