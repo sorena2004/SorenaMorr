@@ -11,6 +11,8 @@ elif option == 'P' :
         radius=float(input("Enter the Radius: "))
         perimeter=2*PI*radius
         print("THE PERIMETER IS: ", perimeter)
+else:
+    print("ENTER ONE OF THE VALIED OPTIONS!!!")
         
 
 
